@@ -1,3 +1,12 @@
 /*
-This is empty on purpose! Your code to build the resume will go here.
+
  */
+ var bio = {
+   "name" : "Julius",
+   "role" : "Boss",
+   "contact info" : "gmail",
+   "picture URL" : "images/me.jpg",
+   "skills" : "Trueshot"
+ }
+ 
+ $("#main").append(bio.name);
